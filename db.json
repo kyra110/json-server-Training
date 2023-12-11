@@ -1,0 +1,30 @@
+{
+  "utilisateurs": [
+    { "id": 1, "nom": "Dupont", "prenom": "Jean", "age": 30 },
+    { "id": 2, "nom": "Martin", "prenom": "Marie", "age": 25 },
+    { "id": 3, "nom": "Dubois", "prenom": "Pierre", "age": 28 }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "titre": "Introduction à Node.js",
+      "contenu": "Un guide pour débutants sur Node.js"
+    },
+    {
+      "id": 2,
+      "titre": "Les meilleures pratiques en JavaScript",
+      "contenu": "Conseils et astuces pour écrire du bon code JavaScript"
+    },
+    {
+      "id": 3,
+      "titre": "Création d'une API REST avec Express",
+      "contenu": "Un tutoriel sur la création d'une API REST avec Express.js"
+    }
+  ],
+  "commentaires": [
+    { "id": 1, "articleId": 1, "userId": 2, "texte": "Super article !" },
+    { "id": 2, "articleId": 1, "userId": 3, "texte": "Très utile pour débuter." },
+    { "id": 3, "articleId": 2, "userId": 1, "texte": "Merci pour ces conseils !" },
+    { "id": 4, "articleId": 3, "userId": 2, "texte": "J'ai appris beaucoup de choses." }
+  ]
+}
